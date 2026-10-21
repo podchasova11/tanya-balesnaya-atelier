@@ -18,3 +18,19 @@
 ## Запуск и публикация
 Локально: `python3 -m http.server 8000`, затем http://localhost:8000.
 Публикация: `npx vercel --prod`.
+
+## Тесты
+Нужен Node.js 18 или новее.
+
+```
+npm install
+npx playwright install chromium
+npm run test:all
+```
+
+- `npm test` — Playwright: вёрстка, меню, картинки, форма, юридические страницы на трёх размерах экрана (компьютер, планшет, телефон). Сервер запускается сам.
+- `npm run test:api` — проверка серверной функции без сети (Telegram подменён).
+- `npm run test:ui` — Playwright в интерактивном окне.
+- Отчёт после запуска: `npx playwright show-report`.
+
+Запросы к Telegram, Яндексу и Google в тестах не выполняются.
