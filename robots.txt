@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tanya-balesnaya-atelier.vercel.app/sitemap.xml
