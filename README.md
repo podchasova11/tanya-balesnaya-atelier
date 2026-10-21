@@ -20,7 +20,7 @@
 Публикация: `npx vercel --prod`.
 
 ## Тесты
-Нужен Node.js 18 или новее.
+Node.js 18 или новее.
 
 ```
 npm install
