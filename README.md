@@ -33,4 +33,4 @@ npm run test:all
 - `npm run test:ui` — Playwright в интерактивном окне.
 - Отчёт после запуска: `npx playwright show-report`.
 
-Запросы к Telegram, Яндексу и Google в тестах не выполняются.
+
